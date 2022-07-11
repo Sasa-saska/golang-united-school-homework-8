@@ -11,7 +11,6 @@ import (
 
 type Arguments map[string]string
 
-//Used to work with user input at -item option
 type User struct {
 	Id    string `json:"id"`
 	Email string `json:"email"`
